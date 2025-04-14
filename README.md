@@ -1,5 +1,7 @@
 # Outlook Account Checker
 
+<img src="https://i.imgur.com/mBpk4e0.png" width="1000px">
+
 This tool is a multithreaded Outlook login checker written in Python. It sends structured HTTP requests to Outlook's login endpoints to validate the credentials of provided accounts.
 
 ---
