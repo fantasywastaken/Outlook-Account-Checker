@@ -16,7 +16,7 @@ This tool is a multithreaded Outlook login checker written in Python. It sends s
 
 ---
 
-### 📁 Setup
+## 📁 Setup
 
 ### 1. Requirements
 
