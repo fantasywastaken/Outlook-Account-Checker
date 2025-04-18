@@ -6,7 +6,7 @@ This tool is a multithreaded Outlook login checker written in Python. It sends s
 
 ---
 
-## ⚙️ How It Works
+### ⚙️ How It Works
 
 - Uses `tls_client` to simulate a Chrome-based TLS session for realistic requests.
 - Initializes session via `https://outlook.live.com/owa/?nlp=1` to obtain required login tokens (PPFT, uaid, etc).
@@ -16,7 +16,7 @@ This tool is a multithreaded Outlook login checker written in Python. It sends s
 
 ---
 
-## 📁 Setup
+### 📁 Setup
 
 ### 1. Requirements
 
@@ -34,14 +34,14 @@ email:password
 
 ---
 
-## 🚀 Usage
+### 🚀 Usage
 
 Simply run the Python script:
 - Successful logins will be saved in `success.txt`.
 
 ---
 
-## 🛡️ Notes
+### 🛡️ Notes
 
 - The checker can be configured to use proxies by uncommenting the relevant lines in the `__init__` method.
 - Random user-agent and TLS extension order are used to minimize detection.
